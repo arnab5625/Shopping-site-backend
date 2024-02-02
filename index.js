@@ -10,7 +10,7 @@ app.use(cors(
   {origin:"*"}
 ))
 
-const mongoDbUrl="mongodb+srv://arnab:dasarnab@cluster0.maltqyb.mongodb.net/shopping_site?retryWrites=true&w=majority";
+const mongoDbUrl="mongodb+srv://my-name:mypassword@cluster0.maltqyb.mongodb.net/mycollection-name?retryWrites=true&w=majority";
 
 mongoose.connect(mongoDbUrl, {});
 const db = mongoose.connection;
